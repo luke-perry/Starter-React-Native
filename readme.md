@@ -1,8 +1,11 @@
 # 👋 React Native Boilerplate
 This starter React Native app is a  basic starting point to accelerate kicking off new mobile projects.  The project is setup with native module support ("[ejected](https://github.com/react-community/create-react-native-app/blob/master/EJECTING.md)").
 
-### Requirements
+## 📝 Requirements
 Node 10 or greater is required. Development for iOS requires a Mac and Xcode 9.4 or up, and will target iOS 9 and up.
+
+## 🚀 Getting Started
+To setup your mac for mobile development, [read more below](#mac-setup).
 
 ## 📦 Installing Dependencies
 JavaScript
@@ -22,7 +25,7 @@ Android
 ## 🏃‍♀️ Running the App
 iOS
 ```bash
-npx react-native run-ios -simulator="iPhone 13"
+npx react-native run-ios --simulator="iPhone 13"
 ```
 
 Android
@@ -55,3 +58,8 @@ Android
 - With Redux, state is shared using global stores.
 
 ### 🐛 Debugging
+
+## Mac Setup
+1) If homebrew is not installed, [view the command here](https://brew.sh/)
+2) Node [LTS](https://nodejs.org/en/about/releases/) or only slightly behind should be used. Consider using [NVM](https://formulae.brew.sh/formula/nvm).
+3) [Install Cocoapods](https://formulae.brew.sh/formula/cocoapods)
