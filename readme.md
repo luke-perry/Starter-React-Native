@@ -1,11 +1,10 @@
 # 👋 React Native Boilerplate
-This starter React Native app is a very basic starting point to accelerate starting new mobile projects. The project is setup with native module support ("[ejected](https://github.com/react-community/create-react-native-app/blob/master/EJECTING.md)").
+This starter React Native app is a  basic starting point to accelerate kicking off new mobile projects.  The project is setup with native module support ("[ejected](https://github.com/react-community/create-react-native-app/blob/master/EJECTING.md)").
 
-## 🚀 Getting Started
 ### Requirements
 Node 10 or greater is required. Development for iOS requires a Mac and Xcode 9.4 or up, and will target iOS 9 and up.
 
-### 📦 Installing Dependencies
+## 📦 Installing Dependencies
 JavaScript
 ```bash
 npm install
@@ -20,13 +19,17 @@ Android
 ```bash
 ```
 
-### 🏃‍♀️ Running the App
+## 🏃‍♀️ Running the App
 iOS
 ```bash
 npx react-native run-ios -simulator="iPhone 13"
 ```
 
-## 📖 Helpful Docs
+Android
+```bash
+```
+
+## 📖 Useful Docs
 - [React Native](https://reactnative.dev/docs/getting-started)
 - [React Navigation](https://reactnavigation.org/)
 - [Redux](https://redux.js.org/)
@@ -35,8 +38,8 @@ npx react-native run-ios -simulator="iPhone 13"
  - [initial boilerplate docs](https://thecodingmachine.github.io/react-native-boilerplate/)
 - [initial boilerplate repo](https://github.com/thecodingmachine/react-native-boilerplate)
 
-## Helpful Info
-### Directory layout 🗂️
+## ℹ️ Helpful Info
+### 🗂️ Directory layout 
 - src/Assets: assets (image, audio files, ...) used by the application
 - src/Components: presentational components
 - src/Config: configuration of the application
@@ -46,3 +49,9 @@ npx react-native run-ios -simulator="iPhone 13"
 - src/Stores: redux actions, reducers and stores
 - src/Translations: application strings, you can add languages files and be able to translate your app strings
 - src/Theme: base styles for the application
+
+### 🧱 Architecture 
+- Presentational components are separated from containers. Containers usually define whole application screens. Presentational components are small components.
+- With Redux, state is shared using global stores.
+
+### 🐛 Debugging
